@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Toko Suku Cadang Motor Dan Mobil</title>
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* HEADER */
+header {
+    background: #626d63;
+    padding: 15px 40px;
+    color: white;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo {
+    font-size: 26px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.search {
+    flex: 1;
+}
+
+.search input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+}
+
+/* MENU */
+.menu {
+    background: #f5f5f5;
+    padding: 10px 40px;
+    display: flex;
+    gap: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+/* PRODUK */
+.container {
+    padding: 30px 40px;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.card h4 {
+    margin: 10px 0 5px;
+    font-size: 14px;
+}
+
+.price {
+    color: #03ac0e;
+    font-weight: bold;
+}
+
+.city {
+    font-size: 12px;
+    color: gray;
+}
+
+
+ button {
+        width: 100%;
+        padding: 10px;
+        background: #8b3ef5;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        margin-top: 10px;
+        font-size: 15px;
+    }
+
+button:hover {
+        background: #6e2cc9;
+    }
+
+#produk-container {
+  display: flex;
+  gap: 20px;
+}
+</style>
+</head>
+<body>
+
+<header>
+<div class="nav">
+        <div class="logo">Spare Part Shop</div>
+        <div class="search">
+            <input type="text" placeholder="Cari di Sps">
+        </div>
+        <a href="index login.html" class="btn btn-primary btn-lg mt-3"><button onclick="login()">LOGIN</button></a>
+        </div>
+    </div>
+
+</header>
+
+<div class="menu">
+    <a href="#">Kunci-kunci</a>
+    <a href="#">Ban</a>
+    <a href="#">Blok silinder</a>
+    <a href="#">Gear</a>
+    <a href="#">Rantai</a>
+    <a href="#">Shockbreaker</a>
+    <a href="#">Kampas rem</a>
+    <a href="#">Dashboard</a>
+    <a href="#">Radiator</a>
+    <a href="#">Bumper</a>
+    <a href="#">Stabilizer</a>
+    <a href="#">ECU</a>
+    <a href="#">Kopling set</a>
+    <a href="#">Piston</a>
+</div>
+
+<div class="container">
+    <div class="products">
+<div class="card">
+            <img src="kunci.jpg">
+            <ul class="nav-item"><a class="nav-link active" href="index transaksi.html"><h4>kunci pas</h4></a></ul>
+            <div class="price">Rp250.000</div>
+            <div class="city">Tangerang</div>
+        </div>
+
+        <div class="card">
+            <img src="blok mesin.jpg">
+            <ul class="nav-item"><a class="nav-link active" href="#"><h4>blok mesin mobil</h4></a></ul>
+            <div class="price">Rp2.500.000</div>
+            <div class="city">Bandung</div>
+        </div>
+
+        <div class="card">
+            <img src="piston.jpg">
+             <ul class="nav-item"><a class="nav-link active" href="#"><h4>piston ukuran 56</h4></a></ul>
+            <div class="price">Rp380.000</div>
+            <div class="city">Surabaya</div>
+        </div>
+
+        <div class="card">
+            <img src="bumper mobil.jpg">
+            <ul class="nav-item"><a class="nav-link active" href="#"><h4>bumper mobil</h4></a></ul>
+            <div class="price">Rp1.250.000</div>
+            <div class="city">Jakarta</div>
+        </div>
+
+        <div class="card">
+            <img src="radiator.jpg">
+            <ul class="nav-item"><a class="nav-link active" href="#"><h4>radiator mobil</h4></a></ul>
+            <div class="price">Rp2.500.000</div>
+            <div class="city">Yogyakarta</div>
+        </div>
+
+        <div class="card">
+            <img src="turbo.jpg">
+             <ul class="nav-item"><a class="nav-link active" href="#"><h4>turbo mobil diesel</h4></a></ul>
+            <div class="price">Rp5.380.000</div>
+            <div class="city">Surabaya</div>
+        </div>
+    
+        <div class="card">
+            <img src="shockbleker.jpg">
+            <ul class="nav-item"><a class="nav-link active" href="#"><h4>shockbleker motor</h4></a></ul>
+            <div class="price">Rp250.000</div>
+            <div class="city">Jakarta</div>
+        </div>
+
+        <div class="card">
+            <img src="kampas rem.jpg">
+            <ul class="nav-item"><a class="nav-link active" href="#"><h4>kampas rem motor</h4></a></ul>
+            <div class="price">Rp20.000</div>
+            <div class="city">Bandung</div>
+        </div>
+
+        <div class="card">
+            <img src="kiriran motor.webp">
+             <ul class="nav-item"><a class="nav-link active" href="#"><h4>kirian motor full spek</h4></a></ul>
+            <div class="price">Rp1.000.000</div>
+            <div class="city">Surabaya</div>
+        </div>
+
+        <div class="card">
+            <img src="karbu satria fu.jpg">
+            <ul class="nav-item"><a class="nav-link active" href="#"><h4>karbu motor satria fu</h4></a></ul>
+            <div class="price">Rp1.250.000</div>
+            <div class="city">Jakarta</div>
+        </div>
+
+        <div class="card">
+            <img src="velg.jpg">
+            <ul class="nav-item"><a class="nav-link active" href="#"><h4>velg mobil merek HSR ring 17</h4></a></ul>
+            <div class="price">Rp10.500.000</div>
+            <div class="city">Bandung</div>
+        </div>
+
+        <div class="card">
+            <img src="biled.jpg">
+             <ul class="nav-item"><a class="nav-link active" href="#"><h4>lampu biled mobil 4,5 inch</h4></a></ul>
+            <div class="price">Rp580.000</div>
+            <div class="city">Surabaya</div>
+        </div>
+
+        <div class="card">
+            <img src="knalpot.jpg">
+            <ul class="nav-item"><a class="nav-link active" href="#"><h4>knalpot merek scorpion cocok untuk segala motor</h4></a></ul>
+            <div class="price">Rp550.000</div>
+            <div class="city">Jakarta</div>
+        </div>
+
+        <div class="card">
+            <img src="klakson keong.jpg">
+            <ul class="nav-item"><a class="nav-link active" href="#"><h4>klakson keong motor dan mobil 12 volt dan 24 volt</h4></a></ul>
+            <div class="price">Rp100.000</div>
+            <div class="city">Bandung</div>
+        </div>
+
+        <div class="card">
+            <img src="lampu.jpg">
+             <ul class="nav-item"><a class="nav-link active" href="#"><h4>lampu biled untuk motor ukr 2,4, 4,5 inch</h4></a></ul>
+            <div class="price">Rp380.000</div>
+            <div class="city">Surabaya</div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

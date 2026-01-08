@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contoh Alert dan Dialog Box</title>
+</head>
+<body>
+    <!-- Tombol menampilkan Confirm -->
+    <button onclick="showConfirm()">Tampilkan Confirm</button>
+
+    <script>
+    function showConfirm() {
+    const konfirmasi = confirm("Apakah anda ingin mengisi data pengguna?");
+    if (konfirmasi) {
+    alert("Anda menekan OK.");
+    } else {
+    alert("Anda menekan Batal.");
+    }
+}
+</script>
+</body>
+</html>

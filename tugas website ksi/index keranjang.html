@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Keranjang Belanja</title>
+  <link rel="stylesheet" href="style5.css">
+</head>
+<body>
+
+<h2>🛒 Keranjang Belanja</h2>
+
+<div class="produk">
+  <h3>Kunci Ring Pas</h3>
+  <p>"Harga": Rp 250.000</p>
+  <button onclick="tambahKeranjang('kunci ring pas', 250000 )">
+    Tambah ke Keranjang
+  </button>
+</div>
+
+<hr>
+
+<h3>Isi Keranjang</h3>
+<ul id="keranjang"></ul>
+
+<p class="total">Total: Rp <span id="total">0</span></p>
+
+<button class="checkout" onclick="checkout()">Checkout</button>
+
+<script src="script keranjang.js"></script>
+</body>
+</html>

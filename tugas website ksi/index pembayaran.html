@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Checkout Pembayaran</title>
+  <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+
+<div class="checkout">
+  <h2>Checkout Pesanan</h2>
+
+  <div class="box">
+    <p><b>Produk:</b> Kunci Ring Pas</p>
+    <p><b>Ukuran:</b> <span id="ukuran">12mm</span></p>
+    <p><b>Alamat:</b> <span id="ukuran">jln. maju jaya</span></p>
+    <p><b>Harga:</b> Rp <span id="harga">250.000</span></p>
+    <p><b>Ongkir:</b> Rp 7.500</p>
+    <hr>
+    <p class="total">Total: Rp <span id="total"></span></p>
+  </div>
+
+  <h3>Metode Pembayaran</h3>
+  <select id="metode">
+    <option value="">-- Pilih Pembayaran --</option>
+    <option value="QRIS">QRIS</option>
+    <option value="Transfer Bank">Transfer Bank</option>
+    <option value="COD">COD</option>
+  </select>
+
+  <button onclick="bayar()">Bayar Sekarang</button>
+
+  <p id="status"></p>
+</div>
+
+<script src="script pembayaran.js"></script>
+</body>
+</html>

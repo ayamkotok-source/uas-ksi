@@ -1,0 +1,110 @@
+body {
+  font-family: Arial;
+  background: #f5f5f5;
+}
+
+.produk-container {
+  background: white;
+  display: flex;
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.produk-img {
+  width: 300px;
+  border-radius: 10px;
+  height: 200px;
+}
+
+.produk-info {
+  margin-left: 20px;
+}
+
+.harga {
+  color: #e60023;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.varian button {
+  margin: 5px;
+  padding: 5px 12px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.beli {
+  background: #03ac0e;
+  color: white;
+  border: none;
+  padding: 12px;
+  width: 100%;
+  margin-top: 15px;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+select button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+button {
+  background: #03ac0e;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.logo{
+      width: 56px; 
+      height: 56px; 
+      background-color: var(--card); 
+      border-radius: 50%; 
+      display: inline-grid;
+      place-items: center;
+      font-weight: 700;
+      box-shadow: 0 6px 18px rgba(11, 17, 29, 0.06); 
+      border: 2px solid rgba(9, 21, 45, 0.08); 
+}
+
+.container {
+      max-width: 900px;
+      margin: 30px auto;
+      background: white;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.profile {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .jumlah-barang {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.jumlah-barang button {
+  width: 35px;
+  height: 35px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.jumlah-barang input {
+  width: 50px;
+  text-align: center;
+  font-size: 16px;
+}

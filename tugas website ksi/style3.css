@@ -1,0 +1,38 @@
+body {
+  font-family: Arial;
+  background: #f0f0f0;
+}
+
+.checkout {
+  background: white;
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.box {
+  background: #fafafa;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.total {
+  font-size: 18px;
+  color: #e60023;
+  font-weight: bold;
+}
+
+select, button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+button {
+  background: #03ac0e;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+}
